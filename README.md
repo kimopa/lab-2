@@ -2,8 +2,8 @@
 
 ## Student Information
 
-* Name
-* Semester/Year
+* Kioma Montoya
+* Spring 2026
 * CRN
 
 ## Instructions
@@ -77,25 +77,26 @@ Do not provide code for any of the questions. You need to provide answers to eac
 
 **In your child class `__init__()` method, what challenges did you need to overcome in order to be able to access the attributes and methods from the parent class?**
 
-YOUR ANSWER HERE
+When defining the constructor for the child classes, I knew that I had to call the constructor method from the parent class. If any additional paramenter needed to be defined, I defined using self.attribute = parameter. 
+
 
 ### Question 2
 
 **How does inheritance help reduce code in a program?**
 
-YOUR ANSWER HERE
+Inheritance allows us to define multiple attributes and methods for a specific class that can then be used later on other classes without defining them again
 
 ### Question 3
 
 **How can controlling when an exception is thrown be leveraged in your program code while using a class or object?**
 
-YOUR ANSWER HERE
+The control over errors in the program allows it to stop immediately if anything happens
 
 ### Question 4
 
 **What is the name of the concept for using the same method name in different child classes and why is it important?**
 
-YOUR ANSWER HERE
+It is called overriding. It is important because it allows us to change the behavior of any specific method depending on what we want it to do on that specific class
 
 ---
 
