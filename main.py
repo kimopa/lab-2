@@ -3,6 +3,7 @@
 
 # Superclass for Contacts
 class Contact:
+    """PARENT CLASS"""
     contact_list = []
     def __init__(self, name_first, name_last):
         self.name_first = name_first.strip()
